@@ -6,7 +6,7 @@ def send_email(message):
     port = 465
 
     username = "lyndontuala@gmail.com"
-    password = st.secrets("PASSWORD")
+    password = st.secrets["PASSWORD"]
     receiver = "lyndontuala@gmail.com"
 
     context = ssl.create_default_context()
