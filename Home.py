@@ -5,7 +5,7 @@ st.set_page_config(layout="wide")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("images/1.png")
+    st.image("images/github_dp.png")
 
 with col2:
     st.title("Lyndon Tuala")
@@ -15,7 +15,7 @@ with col2:
     st.info(content)
 
 st.write("Below you can find some of the apps I have built in Python. \
-         Feel free to cvontact me!")
+         Feel free to contact me!")
 
 df = pd.read_csv("data.csv", sep=';')
 
@@ -27,6 +27,7 @@ with col3:
         st.write(row["description"])
         st.image("images/" + row["image"])
         st.write(f"[Source Code]({row['url']})")
+        st.write(f"[Demo]({row['demo']})")
 
 with col4:
     for index, row in df[10:].iterrows():
@@ -34,3 +35,4 @@ with col4:
         st.write(row["description"])
         st.image("images/" + row["image"])
         st.write(f"[Source Code]({row['url']})")
+        st.write(f"[Demo]({row['demo']})")
