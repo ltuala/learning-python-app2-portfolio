@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 
 st.set_page_config(layout="wide")
+st.title("A Glimpse into my Python Learning Journey")
 col1, col2 = st.columns(2)
 
-st.title("A Glimpse into my Python Learning Journey")
 with col1:
     st.image("images/github_dp.png")
     st.write("Author: [Lyndon Tuala](https://github.com/ltuala)")
