@@ -4,13 +4,13 @@ import pandas as pd
 st.set_page_config(layout="wide")
 col1, col2 = st.columns(2)
 
+st.title("A Glimpse into my Python Learning Journey")
 with col1:
     st.image("images/github_dp.png")
-    st.write("Lyndon Tuala")
+    st.write("Author: [Lyndon Tuala](https://github.com/ltuala)")
 with col2:
-    st.title("A Glimpse into my Python Learning Journey")
     content = """
-    Hi!
+    Hi! \n
     Here are some of the hands-on projects I created while learning Python through this  [Udemy course](https://www.udemy.com/course/the-python-mega-course/?course_id=692188).
     Each project reflects the skills and concepts I explored along the way!
     """
@@ -24,7 +24,7 @@ df = pd.read_csv("data.csv", sep=';')
 col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
 with col3:
-    for index, row in df[:10].iterrows():
+    for index, row in df[:7].iterrows():
         st.header(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
@@ -33,7 +33,7 @@ with col3:
             st.write(f"[Demo]({row['demo']})")
 
 with col4:
-    for index, row in df[10:].iterrows():
+    for index, row in df[7:].iterrows():
         st.header(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
