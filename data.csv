@@ -5,10 +5,14 @@ PDF Templates;A script that generates PDF templates of multiple pages given some
 PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://github.com/ltuala/learning-python/tree/main/app4-invoice-generation;4.png;na
 News API Email;A website that gets data from a news API and searches for a specific topics to be send via email.;https://github.com/ltuala/learning-python/tree/main/app5-news-api-email;5.png;na
 Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://github.com/ltuala/learning-python/tree/main/app6-your-weather-api;6.png;na
-Weather Forecast Data App;A script that monitors the Downloads folder and deletes old files keeping the folder clean.;https://github.com/ltuala/learning-python/tree/main/app7-weather-forecast-data-app;7.png;na
-Tour Scraper;A program that checks a music band's website and sends an email when there are new tours.;https://github.com/ltuala/learning-python/tree/main/app10-scraping-tours-sql;8.png;na
-Book Analysis;A chatbot that knows about a specific topic and answers questions regarding that topic.;https://github.com/ltuala/learning-python/tree/main/app8-book-analysis;9.png;na
-Webcam Motion Detector;A program that monitors the computer webcam and sends an email when a new object enters the view.;https://github.com/ltuala/learning-python/tree/main/app9-email-webcam-detection;11.png;na
 Visualizing Weather Forecast;A data web app that visualizes the weather forecast for the next five days of any city.;https://github.com/ltuala/learning-python/tree/main/app7-weather-forecast-data-app;16.png;na
+Book Analysis;Jupyter notebook exploring sentiment analysis.;https://github.com/ltuala/learning-python/tree/main/app8-book-analysis;12.png;na
+Webcam Motion Detector;A program that monitors the computer webcam and sends an email when a new object enters the view.;https://github.com/ltuala/learning-python/tree/main/app9-email-webcam-detection;11.png;na
+Tour Scraper;A program that checks a music band's website and sends an email when there are new tours.;https://github.com/ltuala/learning-python/tree/main/app10-scraping-tours-sql;8.png;na
+Hotel Booking;A script to let customers book hotel reservation.;https://github.com/ltuala/learning-python/tree/main/app11-hotel-booking;15.png;na
 Student Management System;A desktop PyQt6 GUI app for managing university student data with an SQL database backend.;https://github.com/ltuala/learning-python/tree/main/app13-student-management-system;17.png;na
+Browser Automation;A script to automate login and form fill up in a browser using selenium.;https://github.com/ltuala/learning-python/tree/main/app15-browser-automation-selenium;8.png;na
+Job Application Form (Flask);A Flask web app to let visitor fill up a job application form.;https://github.com/ltuala/learning-python/tree/main/app16-flask-form;21.png;na
+Job Application Form (Django);A Django web app to let visitor fill up a job application form.;https://github.com/ltuala/learning-python/tree/main/app17-django-form;21.png;na
 Restaurant Menu Web App;A Django web app to let customers see a restaurant menu and meal availability.;https://github.com/ltuala/learning-python/tree/main/app18-restaurant-menu;19.png;na
+Python Package;Publish a python package that generate PDF invoices.;https://github.com/ltuala/learning-python/tree/main/app20-python-package;14.png;na

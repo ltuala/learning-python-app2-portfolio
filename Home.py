@@ -24,19 +24,19 @@ df = pd.read_csv("data.csv", sep=';')
 col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
 with col3:
-    for index, row in df[:7].iterrows():
+    for index, row in df[:9].iterrows():
         st.header(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
         st.write(f"[Source Code]({row['url']})")
-        if row['url'] != 'na':
+        if row['demo'] != 'na':
             st.write(f"[Demo]({row['demo']})")
 
 with col4:
-    for index, row in df[7:].iterrows():
+    for index, row in df[9:].iterrows():
         st.header(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
         st.write(f"[Source Code]({row['url']})")
-        if row['url'] != 'na':
+        if row['demo'] != 'na':
             st.write(f"[Demo]({row['demo']})")
